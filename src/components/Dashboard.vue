@@ -1,5 +1,13 @@
 <template>
-    <h2 class="title">{{msg}}</h2>
+    <section class="hero is-primary is-fullheight">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    {{msg}}
+                </h1>
+            </div>
+        </div>
+    </section>
 </template>
 
 <script>
@@ -7,8 +15,15 @@
         name: 'dashboard',
         data(){
             return{
-                msg: `Dashboard`
+                msg: `Welcome to SCB Payme`
             }
         }
     }
 </script>
+
+<style scoped>
+    .hero.is-fullheight{
+        margin: -24px;
+        min-height: calc(100vh - 50px);
+    }
+</style>

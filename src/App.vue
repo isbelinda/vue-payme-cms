@@ -17,7 +17,7 @@
           <span></span>
         </span>
             <div class="nav-right nav-menu">
-              <router-link to="/" class="nav-item">Dashboard</router-link>
+              <!--<router-link to="/" class="nav-item">Dashboard</router-link>-->
               <router-link to="/account" class="nav-item">Accounts</router-link>
               <router-link to="/position" class="nav-item">Positions</router-link>
             </div>

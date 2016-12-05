@@ -8,6 +8,7 @@ import VueResource from 'vue-resource'
 Vue.use(VueRouter);
 Vue.use(VueResource);
 
+
 import Dashborad from './components/Dashboard.vue';
 import Account from './components/Account.vue';
 import Position from './components/Position.vue';
