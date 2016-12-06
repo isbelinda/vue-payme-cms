@@ -8,7 +8,7 @@
             <div class="nav-left">
               <a class="nav-item">
                 <!--<img src="images/bulma-type-white.png" alt="Logo">-->
-                SCB Payme
+                <router-link to="/" class="nav-item">SCB Payme</router-link>
               </a>
             </div>
         <span class="nav-toggle">
